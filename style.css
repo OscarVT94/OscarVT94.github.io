@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: "Cormorant Garamond", serif;
+  background: url(./night_mountain.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4rem;
+  color: white;
+}
+.buffer {
+  height: 5rem;
+}
+
+.btn {
+  font-weight: 70%;
+  border-radius: 300px;
+  text-transform: uppercase;
+  color: #09016a;
+}
+
+.btn-primary {
+  background-color: #02e0ff;
+  border-color: #02e0ff;
+}
+
+.btn-primary:hover {
+  background-color: #00b6cf;
+  border-color: #00b6cf;
+  border-width: 4px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+hr {
+  margin: 20px auto;
+  color: #02e0ff;
+  border: 3px solid #02e0ff;
+  max-width: 65px;
+  opacity: 1;
+}
